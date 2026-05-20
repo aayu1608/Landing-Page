@@ -13,6 +13,13 @@ body {
     padding: 0;
 }
 
+.header img {
+    width: 100px;
+    display: flex;
+    padding: 25px;
+    padding-left: 50px;
+}
+
 .header .left {
     color: aliceblue;
     font-size: 24px;
@@ -30,6 +37,21 @@ body {
     justify-content: flex-end;
     padding-right: 150px;
     gap: 24px;
+}
+
+.header a {
+    width: 100px;
+    height: 35px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
 }
 
 .body1 {
@@ -51,6 +73,7 @@ body {
     height: auto;
     flex-shrink: 0;
     margin-bottom: 50px;
+    border-radius: 5px;
 }
 
 .body1 .lefti {
@@ -138,7 +161,7 @@ button {
 .body3 p {
     display: flex;
     justify-content: flex-end;
-    font-size: 24px;
+    font-size: 16px;
     padding: 0;
     padding-left: 400px;
     font-weight: bold;
