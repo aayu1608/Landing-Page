@@ -31,6 +31,8 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     padding-bottom: 64px;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .lefti h1 {
@@ -76,6 +78,7 @@ body {
     justify-content: space-evenly;
     gap: 32px;
     width: 1;
+    flex-wrap: wrap;
 }
 
 .img-placeholder {
